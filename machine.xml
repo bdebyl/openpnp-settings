@@ -333,7 +333,7 @@
       </heads>
       <signalers/>
       <feeders>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferencePushPullFeeder" version="1.1" id="FDR1757c7686b206d9e" name="ReferencePushPullFeeder" enabled="false" part-id="R0603-1K" retry-count="3" feed-retry-count="3" pick-retry-count="3" rotation-in-feeder="0.0" normalize-pick-location="true" snap-to-axis="true" used-as-template="false" calibrate-motion-x="true" calibrate-motion-y="true" feed-multiplier="1" feed-speed-push-2="1.0" feed-speed-push-3="1.0" feed-speed-push-end="1.0" feed-speed-pull-3="1.0" feed-speed-pull-2="1.0" feed-speed-pull-1="1.0" feed-speed-pull-0="1.0" included-push-1="false" included-push-2="false" included-push-3="true" included-push-end="true" included-multi-0="false" included-multi-1="false" included-multi-2="false" included-multi-3="false" included-multi-end="true" included-pull-0="true" included-pull-1="false" included-pull-2="false" included-pull-3="true" additive-rotation="true" actuator-name="PUSH_PULL" feed-count="5" pipeline-type="CircularSymmetry" ocr-font-name="Liberation Mono" ocr-font-size-pt="7.0" ocr-wrong-part-action="None" ocr-discover-on-job-start="true" ocr-stop-after-wrong-part="false" calibration-count="2" calibration-tolerance-mm="1.95" sprocket-hole-tolerance-mm="0.6" row-location-tolerance-mm="4.0" row-Z-location-tolerance-mm="1.0" calibrate-max-passes="3" calibrate-tolerance-mm="0.3" calibrate-min-statistic="2" calibration-trigger="UntilConfident">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferencePushPullFeeder" version="1.1" id="FDR1757c7686b206d9e" name="ReferencePushPullFeeder" enabled="false" part-id="R0603-1K" retry-count="3" feed-retry-count="3" pick-retry-count="3" rotation-in-feeder="0.0" normalize-pick-location="true" snap-to-axis="true" used-as-template="false" calibrate-motion-x="true" calibrate-motion-y="true" feed-multiplier="1" feed-speed-push-2="1.0" feed-speed-push-3="1.0" feed-speed-push-end="1.0" feed-speed-pull-3="1.0" feed-speed-pull-2="1.0" feed-speed-pull-1="1.0" feed-speed-pull-0="1.0" included-push-1="false" included-push-2="false" included-push-3="true" included-push-end="true" included-multi-0="false" included-multi-1="false" included-multi-2="false" included-multi-3="false" included-multi-end="true" included-pull-0="true" included-pull-1="false" included-pull-2="false" included-pull-3="true" additive-rotation="true" actuator-name="PUSH_PULL" feed-count="7" pipeline-type="CircularSymmetry" ocr-font-name="Liberation Mono" ocr-font-size-pt="7.0" ocr-wrong-part-action="None" ocr-discover-on-job-start="true" ocr-stop-after-wrong-part="false" calibration-count="3" calibration-tolerance-mm="1.95" sprocket-hole-tolerance-mm="0.6" row-location-tolerance-mm="4.0" row-Z-location-tolerance-mm="1.0" calibrate-max-passes="3" calibrate-tolerance-mm="0.3" calibrate-min-statistic="2" calibration-trigger="UntilConfident">
             <location units="Millimeters" x="69.29485667760386" y="39.74295381715306" z="0.0" rotation="90.0"/>
             <hole-1-location units="Millimeters" x="65.79485667760386" y="37.74295381715306" z="0.0" rotation="0.0"/>
             <hole-2-location units="Millimeters" x="65.79485667760386" y="41.74295381715306" z="0.0" rotation="0.0"/>
@@ -368,8 +368,8 @@
                <lower-left-corner units="Millimeters" x="-2.560292057112172" y="6.480583950000001" z="0.0" rotation="0.0"/>
             </ocr-region>
             <precision-wanted value="0.1" units="Millimeters"/>
-            <sum-of-errors value="0.0792985369962527" units="Millimeters"/>
-            <sum-of-error-squares value="0.0031812625930820355" units="Millimeters"/>
+            <sum-of-errors value="0.11327912699625145" units="Millimeters"/>
+            <sum-of-error-squares value="0.0043359430898300515" units="Millimeters"/>
          </feeder>
       </feeders>
       <cameras>
@@ -440,7 +440,7 @@
             <simulated line-ending-type="LF"/>
             <homing-fiducial-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
             <detected-firmware><![CDATA[FIRMWARE_NAME:TinyG, FIRMWARE_URL:https%3A//github.com/synthetos/TinyG, FIRMWARE_VERSION:0.97, FIRMWARE_BUILD:440.21, HARDWARE_PLATFORM:1.00, HARDWARE_VERSION:8.00]]></detected-firmware>
-            <reported-axes><![CDATA[X:147.9450 Y:32.0770 Z:0.0000 A:180.0000 B:0.0000 C:0.0000]]></reported-axes>
+            <reported-axes><![CDATA[X:59.8670 Y:78.0970 Z:0.0000 A:180.0000 B:0.0000 C:0.0000]]></reported-axes>
             <command type="COMMAND_CONFIRM_REGEX">
                <text><![CDATA[^tinyg .* ok.*]]></text>
             </command>
@@ -559,7 +559,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>N1</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="-0.014005600000000005" center-y="-0.011638733333333323" radius="0.1343706154457346" phase-shift="64.03045532670235" units="Millimeters" peak-error="0.00552729838202008" rms-error="0.0036534261167290426"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="-0.030345466666666678" center-y="-0.00698324" radius="0.15573298709885425" phase-shift="-18.11853581658906" units="Millimeters" peak-error="0.009939831908350068" rms-error="0.0054767059797230545"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
@@ -606,20 +606,22 @@
       <park-after-homed>false</park-after-homed>
       <unsafe-Z-roaming-distance value="10.0" units="Millimeters"/>
       <pool-scripting-engines>true</pool-scripting-engines>
-      <solutions show-indicator="true" target-milestone="Advanced">
+      <solutions show-indicator="true" target-milestone="Production">
          <dismissed-solutions class="java.util.HashSet">
-            <string>ec84dfc6f50fc53d84034674bda7b846f655158b</string>
-            <string>d7305161712294eca6ac95f325bf6be5e0654773</string>
             <string>f1899dbc5dcaac966b1eb0558c6e1b654f35b12a</string>
             <string>5050415abbc3225564ed7e6f8bef34a93a62e959</string>
-            <string>97f93549097eb31eb256e814649c62a9ab99c8ba</string>
+            <string>2bdafda6b2f61ebcd7cd12ef2c7274f37734af39</string>
             <string>22693da88115285b95674ca9cf686f1d2b87c9d8</string>
+            <string>ea27e65cfaf7a42afb0b508e10e18175c7ac9c34</string>
+            <string>4a1ec0ced1d41c9b5fe4119cdc644803e46693f1</string>
+            <string>ec84dfc6f50fc53d84034674bda7b846f655158b</string>
+            <string>d7305161712294eca6ac95f325bf6be5e0654773</string>
+            <string>97f93549097eb31eb256e814649c62a9ab99c8ba</string>
+            <string>8a72246dc412654dd2d9302e6729eafe14cbb8eb</string>
             <string>bbf7e51f3ab2e80e995c6793ad814607b7627634</string>
             <string>45d683296f9c8d23b6036b95696e232ca176c536</string>
-            <string>ea27e65cfaf7a42afb0b508e10e18175c7ac9c34</string>
             <string>74985ca7da6e414b7ac3af5effe50eb97801ce07</string>
             <string>22490565558280282f205696c5391d2186a56cd1</string>
-            <string>4a1ec0ced1d41c9b5fe4119cdc644803e46693f1</string>
          </dismissed-solutions>
          <solved-solutions class="java.util.HashSet">
             <string>e489344e8c0be12d217089bda332980daa279af0</string>
