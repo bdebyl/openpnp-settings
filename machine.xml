@@ -10,8 +10,8 @@
             <soft-limit-high value="576.793" units="Millimeters"/>
             <safe-zone-low value="0.0" units="Millimeters"/>
             <safe-zone-high value="0.0" units="Millimeters"/>
-            <feedrate-per-second value="166.67" units="Millimeters"/>
-            <acceleration-per-second-2 value="500.0" units="Millimeters"/>
+            <feedrate-per-second value="250.0" units="Millimeters"/>
+            <acceleration-per-second-2 value="1000.0" units="Millimeters"/>
             <jerk-per-second-3 value="1000.0" units="Millimeters"/>
             <resolution>0.001</resolution>
             <step-test-graph relative-padding-left="0.05" relative-padding-right="0.0" logarithmic="false" zero-nano-time="-9223372036854775808" last-t="0">
@@ -112,7 +112,7 @@
             <soft-limit-high value="360.0" units="Millimeters"/>
             <safe-zone-low value="0.0" units="Millimeters"/>
             <safe-zone-high value="0.0" units="Millimeters"/>
-            <feedrate-per-second value="1000.0" units="Millimeters"/>
+            <feedrate-per-second value="250.0" units="Millimeters"/>
             <acceleration-per-second-2 value="1000.0" units="Millimeters"/>
             <jerk-per-second-3 value="1000.0" units="Millimeters"/>
             <resolution>0.001</resolution>
@@ -333,7 +333,7 @@
       </heads>
       <signalers/>
       <feeders>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferencePushPullFeeder" version="1.1" id="FDR1757c7686b206d9e" name="ReferencePushPullFeeder" enabled="false" part-id="R0603-1K" retry-count="3" feed-retry-count="3" pick-retry-count="3" rotation-in-feeder="0.0" normalize-pick-location="true" snap-to-axis="true" used-as-template="false" calibrate-motion-x="true" calibrate-motion-y="true" feed-multiplier="1" feed-speed-push-2="1.0" feed-speed-push-3="1.0" feed-speed-push-end="1.0" feed-speed-pull-3="1.0" feed-speed-pull-2="1.0" feed-speed-pull-1="1.0" feed-speed-pull-0="1.0" included-push-1="false" included-push-2="false" included-push-3="true" included-push-end="true" included-multi-0="false" included-multi-1="false" included-multi-2="false" included-multi-3="false" included-multi-end="true" included-pull-0="true" included-pull-1="false" included-pull-2="false" included-pull-3="true" additive-rotation="true" actuator-name="PUSH_PULL" feed-count="7" pipeline-type="CircularSymmetry" ocr-font-name="Liberation Mono" ocr-font-size-pt="7.0" ocr-wrong-part-action="None" ocr-discover-on-job-start="true" ocr-stop-after-wrong-part="false" calibration-count="3" calibration-tolerance-mm="1.95" sprocket-hole-tolerance-mm="0.6" row-location-tolerance-mm="4.0" row-Z-location-tolerance-mm="1.0" calibrate-max-passes="3" calibrate-tolerance-mm="0.3" calibrate-min-statistic="2" calibration-trigger="UntilConfident">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferencePushPullFeeder" version="1.1" id="FDR1757c7686b206d9e" name="ReferencePushPullFeeder" enabled="false" part-id="R0603-1K" retry-count="3" feed-retry-count="3" pick-retry-count="3" rotation-in-feeder="0.0" normalize-pick-location="true" snap-to-axis="true" used-as-template="false" calibrate-motion-x="true" calibrate-motion-y="true" feed-multiplier="1" feed-speed-push-2="1.0" feed-speed-push-3="1.0" feed-speed-push-end="1.0" feed-speed-pull-3="1.0" feed-speed-pull-2="1.0" feed-speed-pull-1="1.0" feed-speed-pull-0="1.0" included-push-1="false" included-push-2="false" included-push-3="true" included-push-end="true" included-multi-0="false" included-multi-1="false" included-multi-2="false" included-multi-3="false" included-multi-end="true" included-pull-0="true" included-pull-1="false" included-pull-2="false" included-pull-3="true" additive-rotation="true" actuator-name="PUSH_PULL" feed-count="8" pipeline-type="CircularSymmetry" ocr-font-name="Liberation Mono" ocr-font-size-pt="7.0" ocr-wrong-part-action="None" ocr-discover-on-job-start="true" ocr-stop-after-wrong-part="false" calibration-count="4" calibration-tolerance-mm="1.95" sprocket-hole-tolerance-mm="0.6" row-location-tolerance-mm="4.0" row-Z-location-tolerance-mm="1.0" calibrate-max-passes="3" calibrate-tolerance-mm="0.3" calibrate-min-statistic="2" calibration-trigger="UntilConfident">
             <location units="Millimeters" x="69.29485667760386" y="39.74295381715306" z="0.0" rotation="90.0"/>
             <hole-1-location units="Millimeters" x="65.79485667760386" y="37.74295381715306" z="0.0" rotation="0.0"/>
             <hole-2-location units="Millimeters" x="65.79485667760386" y="41.74295381715306" z="0.0" rotation="0.0"/>
@@ -368,8 +368,46 @@
                <lower-left-corner units="Millimeters" x="-2.560292057112172" y="6.480583950000001" z="0.0" rotation="0.0"/>
             </ocr-region>
             <precision-wanted value="0.1" units="Millimeters"/>
-            <sum-of-errors value="0.11327912699625145" units="Millimeters"/>
-            <sum-of-error-squares value="0.0043359430898300515" units="Millimeters"/>
+            <sum-of-errors value="0.14240534699624632" units="Millimeters"/>
+            <sum-of-error-squares value="0.0051842797813181525" units="Millimeters"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferencePushPullFeeder" version="1.1" id="FDR1757cabc6912f933" name="ReferencePushPullFeeder" enabled="false" part-id="R0603-1K" feed-retry-count="3" pick-retry-count="0" rotation-in-feeder="0.0" normalize-pick-location="true" snap-to-axis="true" used-as-template="false" calibrate-motion-x="true" calibrate-motion-y="true" feed-multiplier="1" feed-speed-push-2="1.0" feed-speed-push-3="1.0" feed-speed-push-end="1.0" feed-speed-pull-3="1.0" feed-speed-pull-2="1.0" feed-speed-pull-1="1.0" feed-speed-pull-0="1.0" included-push-1="false" included-push-2="false" included-push-3="true" included-push-end="true" included-multi-0="false" included-multi-1="false" included-multi-2="false" included-multi-3="false" included-multi-end="true" included-pull-0="true" included-pull-1="false" included-pull-2="false" included-pull-3="true" additive-rotation="true" actuator-name="PUSH_PULL" feed-count="1" pipeline-type="CircularSymmetry" ocr-font-name="Liberation Mono" ocr-font-size-pt="7.0" ocr-wrong-part-action="None" ocr-discover-on-job-start="true" ocr-stop-after-wrong-part="false" calibration-count="0" calibration-tolerance-mm="1.95" sprocket-hole-tolerance-mm="0.6" row-location-tolerance-mm="4.0" row-Z-location-tolerance-mm="1.0" calibrate-max-passes="3" calibrate-tolerance-mm="0.3" calibrate-min-statistic="2" calibration-trigger="None">
+            <location units="Millimeters" x="85.29485667760386" y="39.74295381715306" z="0.0" rotation="90.0"/>
+            <hole-1-location units="Millimeters" x="81.79485667760386" y="37.74295381715306" z="0.0" rotation="0.0"/>
+            <hole-2-location units="Millimeters" x="81.79485667760386" y="41.74295381715306" z="0.0" rotation="0.0"/>
+            <feed-start-location units="Millimeters" x="84.061" y="18.831" z="-8.0" rotation="0.0"/>
+            <feed-mid-1-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            <feed-mid-2-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            <feed-mid-3-location units="Millimeters" x="84.061" y="16.931" z="-18.0" rotation="0.0"/>
+            <feed-end-location units="Millimeters" x="84.061" y="30.031" z="-18.0" rotation="0.0"/>
+            <part-pitch value="4.0" units="Millimeters"/>
+            <feed-pitch value="4.0" units="Millimeters"/>
+            <feed-speed-push-1>1.0</feed-speed-push-1>
+            <pipeline>
+               <stages>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="0" enabled="true" default-light="true" settle-option="Settle" count="1"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageWriteDebug" name="deb0" enabled="false" prefix="push_pull_" suffix=".png"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.BlurGaussian" name="1" enabled="true" kernel-size="5" property-name="BlurGaussian"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.AffineWarp" name="2" enabled="true" length-unit="Millimeters" x-0="0.0" y-0="0.0" x-1="0.0" y-1="0.0" x-2="0.0" y-2="0.0" scale="1.0" rectify="true" region-of-interest-property="regionOfInterest"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="3" enabled="true" conversion="Bgr2Gray"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.SimpleOcr" name="OCR" enabled="true" alphabet="0123456789.-+_RCLDQYXJIVAFH%GMKkmu��np" font-name="Liberation Mono" font-size-pt="7.0" font-max-pixel-size="20" auto-detect-size="false" threshold="0.75" draw-style="OverOriginalImage" debug="false" property-name="SimpleOcr"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRecall" name="5" enabled="true" image-stage-name="0"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.DetectCircularSymmetry" name="results" enabled="true" min-diameter="10" max-diameter="100" max-distance="100" search-width="0" search-height="0" max-target-count="10" min-symmetry="1.2" corr-symmetry="0.2" outer-margin="0.3" inner-margin="0.1" sub-sampling="8" super-sampling="1" symmetry-score="RingMedianVarianceVsRingVarianceSum" property-name="sprocketHole" diagnostics="false" heat-map="false"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRecall" name="7" enabled="false" image-stage-name="0"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.DrawCircles" name="8" enabled="false" circles-stage-name="results" thickness="1">
+                     <color r="255" g="0" b="0" a="255"/>
+                  </cv-stage>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.ImageWriteDebug" name="deb1" enabled="false" prefix="push_pull_result_" suffix=".png"/>
+               </stages>
+            </pipeline>
+            <ocr-region rectify="false">
+               <upper-left-corner units="Millimeters" x="-7.231702126229117" y="6.480583950000001" z="0.0" rotation="0.0"/>
+               <upper-right-corner units="Millimeters" x="-7.231702126229117" y="-9.99090025625" z="0.0" rotation="0.0"/>
+               <lower-left-corner units="Millimeters" x="-2.560292057112172" y="6.480583950000001" z="0.0" rotation="0.0"/>
+            </ocr-region>
+            <precision-wanted value="0.1" units="Millimeters"/>
+            <sum-of-errors value="0.0" units="Millimeters"/>
+            <sum-of-error-squares value="0.0" units="Millimeters"/>
          </feeder>
       </feeders>
       <cameras>
@@ -540,7 +578,7 @@
             <max-part-diameter value="20.0" units="Millimeters"/>
             <max-part-height value="5.0" units="Millimeters"/>
             <max-pick-tolerance value="0.5" units="Millimeters"/>
-            <calibration angle-subdivisions="6" allow-misdetections="0" angle-start="-180.0" angle-stop="180.0" excenter-ratio="0.25" enabled="true" fail-homing="false" runout-compensation-algorithm="ModelCameraOffsetAffine" version="2.1" recalibration-trigger="MachineHome" background-calibration-method="Brightness" background-min-hue="0" background-max-hue="255" background-tol-hue="8" background-min-saturation="0" background-max-saturation="255" background-tol-saturation="8" background-min-value="0" background-max-value="221" background-tol-value="8" background-diagnostics="&lt;html&gt;Background elements are too bright.&lt;br/&gt;Try to eliminate highlights and reflections.&lt;br/&gt;Use a shade behind the nozzle.&lt;br/&gt;Renew the blackening of dark parts of the nozzle tip.&lt;br/&gt;Clean the nozzle tip. If it is shiny, make it dull.&lt;br/&gt;Eliminate light sources that reflect on the nozzle tip.&lt;/html&gt;" min-background-mask-value="32" max-background-mask-value="128" background-worst-saturation="63" background-worst-hue-span="42" background-worst-value="127" offset-threshold="0.0" detection-threshold-margin="0.4">
+            <calibration angle-subdivisions="6" allow-misdetections="0" angle-start="-180.0" angle-stop="180.0" excenter-ratio="0.25" enabled="true" fail-homing="false" runout-compensation-algorithm="ModelCameraOffsetAffine" version="2.1" recalibration-trigger="MachineHome" background-calibration-method="Brightness" background-min-hue="0" background-max-hue="255" background-tol-hue="8" background-min-saturation="0" background-max-saturation="255" background-tol-saturation="8" background-min-value="0" background-max-value="224" background-tol-value="8" background-diagnostics="&lt;html&gt;Background elements are too bright.&lt;br/&gt;Try to eliminate highlights and reflections.&lt;br/&gt;Use a shade behind the nozzle.&lt;br/&gt;Renew the blackening of dark parts of the nozzle tip.&lt;br/&gt;Clean the nozzle tip. If it is shiny, make it dull.&lt;br/&gt;Eliminate light sources that reflect on the nozzle tip.&lt;/html&gt;" min-background-mask-value="32" max-background-mask-value="128" background-worst-saturation="63" background-worst-hue-span="42" background-worst-value="127" offset-threshold="0.0" detection-threshold-margin="0.4">
                <pipeline>
                   <stages>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="0" enabled="true" default-light="false" settle-option="Settle" count="1">
@@ -559,7 +597,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>N1</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="-0.030345466666666678" center-y="-0.00698324" radius="0.15573298709885425" phase-shift="-18.11853581658906" units="Millimeters" peak-error="0.009939831908350068" rms-error="0.0054767059797230545"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="-0.32679733333333333" center-y="-0.02676908666666666" radius="0.15612530025459348" phase-shift="162.41441997080045" units="Millimeters" peak-error="0.006005275775826084" rms-error="0.0031714448081363337"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
