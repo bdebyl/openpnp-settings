@@ -3,19 +3,18 @@
    <part id="FIDUCIAL-HOME" height-units="Millimeters" height="0.0" package-id="FIDUCIAL-HOME" speed="1.0" pick-retry-count="0"/>
    <part id="Fiducial_0.75mm_Mask2.25mm-Fiducial" height-units="Millimeters" height="0.0" package-id="Fiducial_0.75mm_Mask2.25mm" speed="1.0" pick-retry-count="0"/>
    <part id="EMPTY" height-units="Millimeters" height="0.0" package-id="R0805" speed="1.0" pick-retry-count="0"/>
-   <part id="C_0603_1608Metric_Pad1.08x0.95mm_HandSolder-10n" height-units="Millimeters" height="0.5" package-id="R0603" speed="1.0" pick-retry-count="0"/>
-   <part id="C_0805_2012Metric_Pad1.15x1.40mm_HandSolder-1u" height-units="Millimeters" height="0.0" package-id="R0805" speed="1.0" pick-retry-count="0"/>
-   <part id="C_0603_1608Metric_Pad1.08x0.95mm_HandSolder-2.2u" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
-   <part id="C_0603_1608Metric_Pad1.08x0.95mm_HandSolder-10p" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
-   <part id="CP_EIA-3528-15_AVX-H_Pad1.50x2.35mm_HandSolder-100u" height-units="Millimeters" height="0.0" package-id="CP_EIA-3528-15_AVX-H_Pad1.50x2.35mm_HandSolder" speed="1.0" pick-retry-count="0"/>
-   <part id="C_0603_1608Metric_Pad1.08x0.95mm_HandSolder-100n" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
-   <part id="C_0603_1608Metric_Pad1.08x0.95mm_HandSolder-470p" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
-   <part id="C_0805_2012Metric_Pad1.15x1.40mm_HandSolder-10u" height-units="Millimeters" height="0.0" package-id="R0805" speed="1.0" pick-retry-count="0"/>
-   <part id="C_0805_2012Metric_Pad1.15x1.40mm_HandSolder-33u" height-units="Millimeters" height="0.0" package-id="R0805" speed="1.0" pick-retry-count="0"/>
-   <part id="C_0805_2012Metric_Pad1.18x1.45mm_HandSolder-1u" height-units="Millimeters" height="0.0" package-id="R0805" speed="1.0" pick-retry-count="0"/>
+   <part id="C_0603_1608-10n" height-units="Millimeters" height="0.5" package-id="R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="C_0805_2012-1u" height-units="Millimeters" height="0.0" package-id="R0805" speed="1.0" pick-retry-count="0"/>
+   <part id="C_0603_1608-2.2u" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="C_0603_1608-10p" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="CP_EIA-3528-15_AVX-H_-100u" height-units="Millimeters" height="0.0" package-id="CP_EIA-3528-15_AVX-H_" speed="1.0" pick-retry-count="0"/>
+   <part id="C_0603_1608-100n" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="C_0603_1608-470p" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="C_0805_2012-10u" height-units="Millimeters" height="0.0" package-id="R0805" speed="1.0" pick-retry-count="0"/>
+   <part id="C_0805_2012-33u" height-units="Millimeters" height="0.0" package-id="R0805" speed="1.0" pick-retry-count="0"/>
    <part id="D_SOD-323_HandSoldering-SS13HE" height-units="Millimeters" height="0.0" package-id="D_SOD-323_HandSoldering" speed="1.0" pick-retry-count="0"/>
-   <part id="LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder-LED_GRN" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
-   <part id="LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder-LED_RED" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="LED_0603_1608-LED_GRN" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="LED_0603_1608-LED_RED" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
    <part id="Fuse_1206_3216Metric-2A" height-units="Millimeters" height="0.0" package-id="Fuse_1206_3216Metric" speed="1.0" pick-retry-count="0"/>
    <part id="L_1206_3216Metric-80_@_100MHz" height-units="Millimeters" height="0.0" package-id="L_1206_3216Metric" speed="1.0" pick-retry-count="0"/>
    <part id="GCT_USB4120-03-C_REVA-USB_C_Receptacle_USB2.0" height-units="Millimeters" height="0.0" package-id="GCT_USB4120-03-C_REVA" speed="1.0" pick-retry-count="0"/>
@@ -27,15 +26,15 @@
    <part id="SOIC-8_3.9x4.9mm_P1.27mm-DMG9926" height-units="Millimeters" height="0.0" package-id="SOIC-8_3.9x4.9mm_P1.27mm" speed="1.0" pick-retry-count="0"/>
    <part id="TO-252-2-FDD4243" height-units="Millimeters" height="0.0" package-id="TO-252-2" speed="1.0" pick-retry-count="0"/>
    <part id="SOT-23-2N7002" height-units="Millimeters" height="0.0" package-id="SOT-23" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0805_2012Metric_Pad1.15x1.40mm_HandSolder-120" height-units="Millimeters" height="0.0" package-id="R0805" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0603_1608Metric_Pad1.05x0.95mm_HandSolder-10k" height-units="Millimeters" height="0.45" package-id="R0603" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0603_1608Metric_Pad1.05x0.95mm_HandSolder-22" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0603_1608Metric_Pad1.05x0.95mm_HandSolder-1.2k" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0603_1608Metric_Pad1.05x0.95mm_HandSolder-5.1k" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
-   <part id="R_1206_3216Metric_Pad1.42x1.75mm_HandSolder-0.33" height-units="Millimeters" height="0.0" package-id="R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0603_1608Metric_Pad1.05x0.95mm_HandSolder-3.8k" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0603_1608Metric_Pad1.05x0.95mm_HandSolder-100k" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
-   <part id="R_0603_1608Metric_Pad1.05x0.95mm_HandSolder-100" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0805_2012-120" height-units="Millimeters" height="0.0" package-id="R0805" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0603_1608-10k" height-units="Millimeters" height="0.45" package-id="R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0603_1608-22" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0603_1608-1.2k" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0603_1608-5.1k" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="R_1206_3216-0.33" height-units="Millimeters" height="0.0" package-id="R_1206_3216" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0603_1608-3.8k" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0603_1608-100k" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="R_0603_1608-100" height-units="Millimeters" height="0.0" package-id="R0603" speed="1.0" pick-retry-count="0"/>
    <part id="LQFP-100_14x14mm_P0.5mm-STM32F413VGTx" height-units="Millimeters" height="0.0" package-id="LQFP-100_14x14mm_P0.5mm" speed="1.0" pick-retry-count="0"/>
    <part id="SOIC-8_3.9x4.9mm_P1.27mm-TCAN337G" height-units="Millimeters" height="0.0" package-id="SOIC-8_3.9x4.9mm_P1.27mm" speed="1.0" pick-retry-count="0"/>
    <part id="ESP32-WROOM-32-ESP32-WROOM-32" height-units="Millimeters" height="0.0" package-id="ESP32-WROOM-32" speed="1.0" pick-retry-count="0"/>
